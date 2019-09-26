@@ -7,10 +7,8 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" TextWrapping="Wrap" Text="Base" VerticalAlignment="Top" Height="29" Width="98" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="10,89,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="135" FontSize="20" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,160,0,0" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" Height="27" Width="98" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,214,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="120" FontSize="20" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,38,0,0" TextWrapping="Wrap" Text="Lado" VerticalAlignment="Top" Height="29" Width="98" FontSize="20"/>
+        <TextBox x:Name="TextoLadoCuadrado" HorizontalAlignment="Left" Height="34" Margin="10,89,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="135" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </UserControl>

@@ -8,11 +8,11 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" Text="Lado A" VerticalAlignment="Top" Height="32" Width="120" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="10,191,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="151" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="Textobasemenortrapecio" HorizontalAlignment="Left" Height="54" Margin="10,191,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="151" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,34,0,0" TextWrapping="Wrap" Text="Altura" VerticalAlignment="Top" Height="41" RenderTransformOrigin="0.5,0.5" Width="89" FontSize="20" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="43" Margin="10,80,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="151" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="TextoAlturaTrapeco" HorizontalAlignment="Left" Height="43" Margin="10,80,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="151" FontSize="20" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="295,150,0,0" TextWrapping="Wrap" Text="Lado b" VerticalAlignment="Top" Height="32" Width="95" FontSize="20"/>
-        <TextBox HorizontalAlignment="Left" Height="54" Margin="277,191,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="144" FontSize="20" FontWeight="Bold"/>
+        <TextBox x:Name="TextoBaseMayorTrapecio" HorizontalAlignment="Left" Height="54" Margin="277,191,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="144" FontSize="20" FontWeight="Bold"/>
 
     </Grid>
 </UserControl>

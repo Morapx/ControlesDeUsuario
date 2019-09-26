@@ -8,7 +8,7 @@
              d:DesignHeight="94.33" d:DesignWidth="162.887">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="29,10,0,0" TextWrapping="Wrap" Text="Radio" VerticalAlignment="Top" Height="39" Width="96" FontSize="24"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Margin="10,54,0,0" TextWrapping="Wrap" Text="1.0" VerticalAlignment="Top" Width="120" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="TextoRadio" HorizontalAlignment="Left" Height="23" Margin="10,54,0,0" TextWrapping="Wrap" Text="1.0" VerticalAlignment="Top" Width="120" FontSize="18" FontWeight="Bold"/>
 
     </Grid>
 </UserControl>

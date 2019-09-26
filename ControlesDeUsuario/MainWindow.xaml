@@ -16,8 +16,8 @@
             <ComboBoxItem>Cuadrado</ComboBoxItem>
             <ComboBoxItem>Trapecio</ComboBoxItem>
         </ComboBox>
-        <Button Content="Calcular area" HorizontalAlignment="Left" Margin="194,72,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox HorizontalAlignment="Left" Height="42" Margin="337,69,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="139" FontSize="22" FontWeight="Bold"/>
+        <Button x:Name="BotonCalcularArea" Content="Calcular area" HorizontalAlignment="Left" Margin="194,72,0,0" VerticalAlignment="Top" Width="75" Click="BotonCalcularArea_Click"/>
+        <TextBox x:Name="LabelResultado" HorizontalAlignment="Left" Height="42" Margin="337,69,0,0" TextWrapping="Wrap" Text="0.0" VerticalAlignment="Top" Width="139" FontSize="22" FontWeight="Bold"/>
         <Grid x:Name="GrindParametrosFigura" HorizontalAlignment="Left" Height="271" Margin="25,116,0,0" VerticalAlignment="Top" Width="548" Background="Linen"/>
 
     </Grid>
