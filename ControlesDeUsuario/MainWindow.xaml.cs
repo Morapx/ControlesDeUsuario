@@ -33,6 +33,21 @@ namespace ControlesDeUsuario
                 case 0: //Circulo
                     GrindParametrosFigura.Children.Add(new ParametrosCirculo());
                     break;
+                case 1: //Triangulo
+                    GrindParametrosFigura.Children.Add(new ParametrosTriangulo()); //Van numerados dependiendo de la forma acomodada, en este caso el 0 es el circulo por ser el primero en el Mainwindow.xaml y luego el triangulo siendo este el 1 por ser el segundo
+                    break;
+                case 2: //Rectangulo
+                    GrindParametrosFigura.Children.Add(new ParametrosRectangulo());
+                    break;
+                case 3: //Pentagono 
+                    GrindParametrosFigura.Children.Add(new ParametroPentagono());
+                    break;
+                case 4: //Cuadrado
+                    GrindParametrosFigura.Children.Add(new ParametroCuadrado());
+                    break;
+                case 5:
+                    GrindParametrosFigura.Children.Add(new ParametroTrapecio());
+                    break;
                 default:
                     break;
             }
